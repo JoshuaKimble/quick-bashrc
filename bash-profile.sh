@@ -5,4 +5,4 @@ alias refrash='source ~/.bash_profile'
 
 function up(){ DEEP=$1; [ -z "${DEEP}" ] && { DEEP=1; }; for i in $(seq 1 ${DEEP}); do cd ../; done; }
 
-source ~/.ps1_prompt
+source ~/quick-bashrc/ps1-prompt.sh
